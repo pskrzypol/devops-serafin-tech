@@ -21,3 +21,8 @@ def hello(name=None):
 @app.route('/ping')
 def ping(name=None):
     return 'pong'
+
+
+@app.route('/test/')
+def test(name=None):
+    return 'test'
