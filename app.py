@@ -25,4 +25,4 @@ def ping(name=None):
 
 @app.route('/test/')
 def test(name=None):
-    return 'test'
+    return 'test - fancy reply...'
