@@ -20,7 +20,7 @@ def hello(name=None):
 
 @app.route('/ping')
 def ping(name=None):
-    return 'pong ping pong ping pong'
+    return 'piiiiiiiiiiiiiiiiiiiiiiing'
 
 
 @app.route('/test/')
