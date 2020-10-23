@@ -47,6 +47,11 @@ stages:
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
 
+    - script: |
+	python -m compileall
+      workingDirectory: $(projectRoot)
+      displayName: "check python syntax"
+
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
