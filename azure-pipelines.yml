@@ -48,7 +48,7 @@ stages:
       displayName: "Install requirements"
 
     - script: |
-	python -m compileall
+        python -m compileall
       workingDirectory: $(projectRoot)
       displayName: "check python syntax"
 
