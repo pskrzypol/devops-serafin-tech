@@ -25,6 +25,7 @@ def ping(name=None):
 
 @app.route('/test/')
 def test(name=None):
+bleleee
     return 'test - fancy reply...'
 
 @app.route('/api/sample_data', methods=["GET"])
